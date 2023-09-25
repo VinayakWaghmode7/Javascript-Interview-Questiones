@@ -28,3 +28,23 @@ const output = companies.map(function(x){
 const output1 = companies.map((x)=>{
     console.log(x);
 })
+
+//Filter function
+const filter = companies.filter((x)=>{
+    console.log(x.catgory=="Product Based");
+
+});
+
+//Filter function using simple function.
+for(let i=0; i<ages.length; i++){
+    if(ages[i]>=50){
+        console.log(ages[i]);
+    }
+}
+
+//Actula Filter function.
+const age = ages.filter((x)=>{
+    if(x>=30){
+        console.log(x);
+    }
+})

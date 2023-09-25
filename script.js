@@ -24,3 +24,7 @@ companies.forEach(function(x,index){
 const output = companies.map(function(x){
       console.log(x);
 })
+
+const output1 = companies.map((x)=>{
+    console.log(x);
+})
